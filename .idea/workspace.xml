@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebe2060c-6516-4f0b-8cb6-8fe3afb47e83" name="Default" comment="" />
+    <list default="true" id="ebe2060c-6516-4f0b-8cb6-8fe3afb47e83" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/nuiovo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/mauriziocozzetto/punti/Punto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/mauriziocozzetto/punti/Punto.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +18,14 @@
       <file leaf-file-name="Punto.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/it/mauriziocozzetto/punti/Punto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+            <state relative-caret-position="578">
+              <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+              <folding>
+                <element signature="method#Punto#0;class#Punto#0" />
+                <element signature="method#scrivi#0;class#Punto#0" />
+                <element signature="method#leggi#0;class#Punto#0" />
+                <element signature="method#evaluateSector#0;class#Punto#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +60,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,6 +83,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -153,11 +162,12 @@
       <updated>1523428691465</updated>
       <workItem from="1523428692814" duration="513000" />
       <workItem from="1523429619938" duration="20000" />
+      <workItem from="1523429897598" duration="154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="533000" />
+    <option name="totallyTimeSpent" value="687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
@@ -201,15 +211,37 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/it/mauriziocozzetto/punti/Punto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="918">
+          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding>
+            <element signature="method#Punto#0;class#Punto#0" />
+            <element signature="method#scrivi#0;class#Punto#0" />
+            <element signature="method#leggi#0;class#Punto#0" />
+            <element signature="method#evaluateSector#0;class#Punto#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/it/mauriziocozzetto/punti/Punto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        <state relative-caret-position="1054">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuiovo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/mauriziocozzetto/punti/Punto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+          <folding>
+            <element signature="method#Punto#0;class#Punto#0" />
+            <element signature="method#scrivi#0;class#Punto#0" />
+            <element signature="method#leggi#0;class#Punto#0" />
+            <element signature="method#evaluateSector#0;class#Punto#0" />
+          </folding>
         </state>
       </provider>
     </entry>
