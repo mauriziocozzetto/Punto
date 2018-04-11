@@ -105,3 +105,7 @@ public double distanza(Punto p){
 		double distanza;
 		return distanza = Math.sqrt(Math.pow(p.x - this.x, 2) + Math.pow(p.y - this.y, 2));
 	}
+public boolean eUguale (Punto p){
+    return this.x==p.x && this.y==p.y;
+}
+}

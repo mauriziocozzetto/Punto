@@ -22,5 +22,9 @@ public class MainApp {
 		Punto r = expr1.getR().somma(expr2.getR()).somma(expr3.getR());
 		//System.out.println(r.toString());
 		r.out();
+        
+        Punto p = new Punto (1,2);
+        Punto q = new Punto (1,2);
+        System.out.println(p.eUguale (q));
 	}
 }
