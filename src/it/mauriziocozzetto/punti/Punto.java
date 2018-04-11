@@ -7,6 +7,8 @@ public class Punto {
 	private float y;
 	
 	// Costruttore con due argomenti
+	public Punto() {}
+
 	public Punto(float x, float y) {
 		this.x = x;
 		this.y = y;
@@ -51,4 +53,13 @@ public class Punto {
 	public Punto simmetricoRispettoAsseX() {
 		return new Punto(this.x, -this.y);
 	}
+
+	public Punto simmetricoRispettoAsseY() {
+		return new Punto(-this.x, this.y);
+	}
+
+    public static double distanza2(Punto p, Punto q) {
+        double dist = Math.sqrt((q.x * q.x) - (p.x * p.x)) + Math.sqrt((q.y * q.y) - (p.y * p.y));
+        return dist;
+    }
 }
