@@ -20,6 +20,7 @@ public class MainApp {
 		expr3.join();
 		
 		Punto r = expr1.getR().somma(expr2.getR()).somma(expr3.getR());
-		System.out.println(r.toString());
+		//System.out.println(r.toString());
+		r.out();
 	}
 }
