@@ -51,4 +51,26 @@ public class Punto {
 	public Punto simmetricoRispettoAsseX() {
 		return new Punto(this.x, -this.y);
 	}
+
+	private static final float[][] quadranti = {{1.0f, 1.0f}, {-1.0f, 1.0f}, {-1.0f, -1.0f}, {1.0f, -1.0f}};
+
+	private boolean evaluateSector(float[] multiplier){
+		return (this.x*multiplier[0] > 0 && this.y*multiplier[1] > 0);
+	}
+
+	public boolean appartienePrimoQuadrante(){
+		return evaluateSector(quadranti[0]);
+	}
+
+	public boolean appartieneSecondoQuadrante(){
+		return evaluateSector(quadranti[1]);
+	}
+
+	public boolean appartieneTerzoQuadrante(){
+		return evaluateSector(quadranti[2]);
+	}
+
+	public boolean appartieneQuartoQuadrante(){
+		return evaluateSector(quadranti[3]);
+	}
 }
