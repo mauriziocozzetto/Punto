@@ -35,11 +35,20 @@ public class Punto {
 	}
 	
 	// Metodo non richiesto, mi serve solo come prova
-	public void leggiPunto() {
+	public void in() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Inserisci x e y: ");
 		this.x = Float.parseFloat(sc.next());
 		this.y = Float.parseFloat(sc.next());
 		sc.close();
+	}
+	
+	// Metodo non richiesto
+	public void out() {
+		System.out.println(this);
+	}
+	
+	public Punto simmetricoRispettoAsseX() {
+		return new Punto(this.x, -this.y);
 	}
 }
