@@ -32,12 +32,15 @@ public class Punto implements Serializable {
 	public Punto prodotto(float c) {
 		return new Punto(this.x*c, this.y*c);
 	}
-	
-	@Override
-	public String toString() {
-		return "Punto = (" + x + ", " + y + ")";
+
+	public boolean appartieneAsseY(){
+		return x == 0;
 	}
-	
+
+	public String descrizione(){
+		return "Punto = (" + x + "; " + y + ")";
+	}
+
 	// Metodo non richiesto, mi serve solo come prova
 	public void in() {
 		Scanner sc = new Scanner(System.in);
