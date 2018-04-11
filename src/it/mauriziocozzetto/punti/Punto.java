@@ -51,4 +51,6 @@ public class Punto {
 	public Punto simmetricoRispettoAsseX() {
 		return new Punto(this.x, -this.y);
 	}
+    public boolean eUguale (Punto p){
+    return this.x==p.x && this.y==p.y;
 }
