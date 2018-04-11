@@ -47,8 +47,17 @@ public class Punto {
 	public void out() {
 		System.out.println(this);
 	}
+
+	public Punto simmetricoRispettoOrigine(){
+		return new Punto(-this.x, -this.y);
+	}
 	
 	public Punto simmetricoRispettoAsseX() {
 		return new Punto(this.x, -this.y);
+	}
+
+	public double distanza(Punto p){
+		double distanza;
+		return distanza = Math.sqrt(Math.pow(p.x - this.x, 2) + Math.pow(p.y - this.y, 2));
 	}
 }
