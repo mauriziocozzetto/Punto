@@ -1,8 +1,12 @@
 package it.mauriziocozzetto.punti;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class Punto {
+public class Punto implements Serializable {
 	private float x;
 	private float y;
 	
@@ -42,7 +46,17 @@ public class Punto {
 		this.y = Float.parseFloat(sc.next());
 		sc.close();
 	}
-	
+
+	public void scrivi() {
+		try {
+			ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(new File("Punto.txt")));
+			outputStream.writeObject(this);
+			outputStream.close();
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+
 	// Metodo non richiesto
 	public void out() {
 		System.out.println(this);
