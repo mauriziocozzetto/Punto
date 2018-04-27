@@ -4,7 +4,7 @@ public class Expr extends Thread {
 	private Punto p;
 	private Punto q;
 	private float c;
-	private Punto r; // raccoglie il risultato del calcolo
+	private Punto r;
 	
 	public Expr(Punto p, Punto q) {
 		this.p = p;
